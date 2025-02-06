@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  flex-direction: column;
+}
+
+#rectangle {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  text-align: center;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
