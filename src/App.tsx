@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1> Kimberly G. Manaloto </h1>
-      <div id="rectangle">CPEITEL</div>
+    <div className="container">
+      <h1>Kimberly G. Manaloto </h1>
+      <div className="box">CPEITEL</div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
